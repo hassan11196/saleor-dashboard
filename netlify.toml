@@ -24,6 +24,10 @@
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
+  from = "/"
+  to = "/dashboard"
+  status = 200
+  
   from = "/*"
   to = "/index.html"
   status = 200
