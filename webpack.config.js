@@ -46,8 +46,8 @@ module.exports = (env, argv) => {
     output = {
       chunkFilename: "[name].[chunkhash].js",
       filename: "[name].[chunkhash].js",
-      path: resolve(dashboardBuildPath),
-      publicPath: "/"
+      path: resolve("build/"),
+      publicPath
     };
     fileLoaderPath = "file-loader?name=[name].[hash].[ext]";
   } else {
